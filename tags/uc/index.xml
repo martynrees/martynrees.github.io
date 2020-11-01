@@ -6,11 +6,7 @@
     <description>Recent content in UC on Boldly Going Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 18 Feb 2020 09:38:21 +1030</lastBuildDate>
-    
-	<atom:link href="https://martynrees.github.io/tags/uc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 18 Feb 2020 09:38:21 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/tags/uc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CUCM Convert LDAP to LDAPS</title>
       <link>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</link>

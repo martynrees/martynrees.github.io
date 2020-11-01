@@ -6,11 +6,7 @@
     <description>Recent content in RADIUS on Boldly Going Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 22 Jul 2019 12:04:17 +0930</lastBuildDate>
-    
-	<atom:link href="https://martynrees.github.io/tags/radius/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 22 Jul 2019 12:04:17 +0930</lastBuildDate><atom:link href="https://martynrees.github.io/tags/radius/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating a Self Signed Certificate on Windows Server</title>
       <link>https://martynrees.github.io/2019/07/generating-a-self-signed-certificate-on-windows-server/</link>

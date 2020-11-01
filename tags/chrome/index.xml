@@ -6,11 +6,7 @@
     <description>Recent content in Chrome on Boldly Going Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 03 Jan 2020 10:25:14 +1030</lastBuildDate>
-    
-	<atom:link href="https://martynrees.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Jan 2020 10:25:14 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Chrome Revoked Self Signed Certificates</title>
       <link>https://martynrees.github.io/2020/01/google-chrome-revoked-self-signed-certificates/</link>
