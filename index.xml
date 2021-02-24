@@ -6,7 +6,18 @@
     <description>Recent content on Boldly Going Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 18 Feb 2020 09:38:21 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 14:19:50 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devnet Assosciate</title>
+      <link>https://martynrees.github.io/2021/02/devnet-assosciate/</link>
+      <pubDate>Wed, 24 Feb 2021 14:19:50 +1030</pubDate>
+      
+      <guid>https://martynrees.github.io/2021/02/devnet-assosciate/</guid>
+      <description>After much procrastination and delay, I&amp;rsquo;m finally Devnet Assosciate certified!!!
+I thought it only appropriate to publish a list of resources - there are heaps out there!
+Firstly, you have to study the blueprint here Take note of the keywords like describe, implement, configure, etc. They are the best indication of the depth of the topic that you will need to research.</description>
+    </item>
+    
     <item>
       <title>CUCM Convert LDAP to LDAPS</title>
       <link>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</link>

@@ -8,51 +8,45 @@
 <meta name="generator" content="Hugo 0.80.0 with theme Tranquilpeak 0.4.7-BETA">
 <meta name="author" content="Martyn Rees">
 <meta name="keywords" content="">
-<meta name="description" content="This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
-Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
-https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
-The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.">
+<meta name="description" content="After much procrastination and delay, I&rsquo;m finally Devnet Assosciate certified!!!
+I thought it only appropriate to publish a list of resources - there are heaps out there!
+Firstly, you have to study the blueprint here Take note of the keywords like describe, implement, configure, etc. They are the best indication of the depth of the topic that you will need to research.">
 
 
-<meta property="og:description" content="This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
-Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
-https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
-The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.">
+<meta property="og:description" content="After much procrastination and delay, I&rsquo;m finally Devnet Assosciate certified!!!
+I thought it only appropriate to publish a list of resources - there are heaps out there!
+Firstly, you have to study the blueprint here Take note of the keywords like describe, implement, configure, etc. They are the best indication of the depth of the topic that you will need to research.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CUCM Convert LDAP to LDAPS">
-<meta name="twitter:title" content="CUCM Convert LDAP to LDAPS">
-<meta property="og:url" content="https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/">
-<meta property="twitter:url" content="https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/">
+<meta property="og:title" content="Devnet Assosciate">
+<meta name="twitter:title" content="Devnet Assosciate">
+<meta property="og:url" content="https://martynrees.github.io/2021/02/devnet-assosciate/">
+<meta property="twitter:url" content="https://martynrees.github.io/2021/02/devnet-assosciate/">
 <meta property="og:site_name" content="Boldly Going Nowhere">
-<meta property="og:description" content="This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
-Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
-https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
-The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.">
-<meta name="twitter:description" content="This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
-Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
-https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
-The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.">
+<meta property="og:description" content="After much procrastination and delay, I&rsquo;m finally Devnet Assosciate certified!!!
+I thought it only appropriate to publish a list of resources - there are heaps out there!
+Firstly, you have to study the blueprint here Take note of the keywords like describe, implement, configure, etc. They are the best indication of the depth of the topic that you will need to research.">
+<meta name="twitter:description" content="After much procrastination and delay, I&rsquo;m finally Devnet Assosciate certified!!!
+I thought it only appropriate to publish a list of resources - there are heaps out there!
+Firstly, you have to study the blueprint here Take note of the keywords like describe, implement, configure, etc. They are the best indication of the depth of the topic that you will need to research.">
 <meta property="og:locale" content="en-us">
 
   
-    <meta property="article:published_time" content="2020-02-18T09:38:21">
+    <meta property="article:published_time" content="2021-02-24T14:19:50">
   
   
-    <meta property="article:modified_time" content="2020-02-18T09:38:21">
+    <meta property="article:modified_time" content="2021-02-24T14:19:50">
   
   
   
   
     
-      <meta property="article:tag" content="LDAP">
-    
-      <meta property="article:tag" content="CUCM">
-    
-      <meta property="article:tag" content="Certificates">
-    
-      <meta property="article:tag" content="UC">
+      <meta property="article:tag" content="Devnet">
     
       <meta property="article:tag" content="Cisco">
+    
+      <meta property="article:tag" content="Exams">
+    
+      <meta property="article:tag" content="Programability">
     
   
 
@@ -77,14 +71,14 @@ The short of it is that Microsoft are enforcing that connections should now be o
   <meta property="twitter:image" content="https://martynrees.github.io/img/avatar.png">
 
 
-    <title>CUCM Convert LDAP to LDAPS</title>
+    <title>Devnet Assosciate</title>
 
     <link rel="icon" href="https://martynrees.github.io/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/">
+    <link rel="canonical" href="https://martynrees.github.io/2021/02/devnet-assosciate/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -247,19 +241,19 @@ if (!doNotTrack) {
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      CUCM Convert LDAP to LDAPS
+      Devnet Assosciate
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2020-02-18T09:38:21&#43;10:30">
+      <time itemprop="datePublished" datetime="2021-02-24T14:19:50&#43;10:30">
         
   
   
   
   
-    Feb 18, 2020
+    Feb 24, 2021
   
 
       </time>
@@ -271,36 +265,12 @@ if (!doNotTrack) {
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p><em><strong>This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.</strong></em></p>
-<p>Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.</p>
-<p><a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html">https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html</a></p>
-<p>The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods. This was initially going to be enforced from March security patches onwards, but has now been pushed back. Regardless of the time frame though, it is important to make these changes now, rather than be caught in a rush later.</p>
-<p>The key changes to the process, apart from changing the port that CUCM talks to the LDAP server on, is that CUCM/UnityCx require that they must trust the LDAP server certificate before they will connect. As most of the time access to the LDAP server is not possible, and involves working through other teams, and a lot of questions, it is simply easier to extract the certificate yourself and apply it to the Tomcat Trust store on the server.
-Note, that the Tomcat web service does need to be restarted during this process, so there will be interuptions and outages, so be sure to negotiate an outage window before attempting to do this.</p>
-<p>There are a couple of ways that we can extract the certificate from the LDAP server, but the easiest method is by using OpenSSL. Another mehtod is via a packet capture from CUCM, but this tends to take longer and is a bit more complex.</p>
-<p>If you are on a Mac or linux machine, you will probably already have OpenSSL installed, otherwise if you are on Windows you will need to install it first before attempting this method.</p>
-<p>From a shell command navigate to a directory that you want to save the certificate in and enter:</p>
-<pre><code>openssl s_client -showcerts -connect &lt;host&gt;:636 &gt;&gt; cert.txt
-</code></pre><p>From there open the cert.txt file in your favourite text editor, and copy the contents of the cert from the</p>
-<pre><code>-----BEGIN CERTIFICATE-----
-</code></pre><p>through to the</p>
-<pre><code>-----END CERTIFICATE-----
-</code></pre><p>and save the file as ldap_server.cer in a handy location on your local machine.</p>
-<p>From there, open up your web browser and log in to CUCM&rsquo;s OS admin page.</p>
-<p>Naviagte to Security &ndash;&gt; Certificate Management and select Upload Certificate.
-Select Tomcat-Trust from the dropdown list to ensure that you are loading the certificate in to the correct store.</p>
-<p><img src="https://martynrees.github.io/img/tomcat-trust.png" alt="Tomcat Trust"></p>
-<p>Browse your PC and select the cer file that you had previously saved, and select Upload.
-If successful you will receive a message about needing to restart Cisco Tomcat. You can either do this now, or at a later stage, but you cannot proceed with the next steps until you have completed the restart.</p>
-<p>To restart the Tomcat service log in to the admin CLI via SSH and enter (remembering that this will cause an outage):</p>
-<pre><code>Utils service restart Cisco Tomcat
-</code></pre><p>You will now have to wait 5-10 minutes for everything to be back online before you continue on with the next step.</p>
-<p>Once the web services are back up, log back in to CUCM Administration (not OS admin) and navigate to System &ndash;&gt; LDAP &ndash;&gt; LDAP Authentication.</p>
-<p><img src="https://martynrees.github.io/img/ldap-auth.png" alt="LDAP Authentication"></p>
-<p>Update the port that CUCM is using to be 636 and select TLS as the method.
-Press save, and you should receive a message that the update has been successful. If you receive any errors about CUCM not trusting the LDAP servers certificate, then you will need to go back and review the cert that you have extracted to ensure that it matches that of the LDAP server host, and re-upload it if necessary.</p>
-<p>All going well, you will then need to make the same changes for LDAP Syncronisation, so go ahead and browse to System &ndash;&gt; LDAP &ndash;&gt; LDAP Directory, and update the port and TLS method from there. Again, save and ensure that this completed successfully. If all looks good, initiate a sync and ensure that the users are still active in the End Users page.</p>
-<p>You have now updated CUCM to use LDAPS, and there is one less stress for later on!.</p>
+              <p>After much procrastination and delay, I&rsquo;m finally Devnet Assosciate certified!!!</p>
+<p><img src="https://martynrees.github.io/img/Cisco_DevNetAsst_600.png" alt="Devnet Assosciate">
+<img src="https://martynrees.github.io/img/Classof2020-badge.png" alt="Devnet Class of 2020"></p>
+<p>I thought it only appropriate to publish a list of resources - there are heaps out there!</p>
+<p>Firstly, you have to study the blueprint <a href="https://developer.cisco.com/certification/exam-topic-associate/">here</a>
+Take note of the keywords like describe, implement, configure, etc. They are the best indication of the depth of the topic that you will need to research.</p>
 
               
             </div>
@@ -313,15 +283,13 @@ Press save, and you should receive a message that the update has been successful
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">TAGGED IN</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/ldap/">LDAP</a>
-
-  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/cucm/">CUCM</a>
-
-  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/certificates/">Certificates</a>
-
-  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/uc/">UC</a>
+  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/devnet/">Devnet</a>
 
   <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/cisco/">Cisco</a>
+
+  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/exams/">Exams</a>
+
+  <a class="tag tag--primary tag--small" href="https://martynrees.github.io/tags/programability/">Programability</a>
 
                   </div>
                 
@@ -334,7 +302,7 @@ Press save, and you should receive a message that the update has been successful
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2021/02/devnet-assosciate/" data-tooltip="Devnet Assosciate">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -342,7 +310,7 @@ Press save, and you should receive a message that the update has been successful
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2020/01/google-chrome-revoked-self-signed-certificates/" data-tooltip="Google Chrome Revoked Self Signed Certificates">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/" data-tooltip="CUCM Convert LDAP to LDAPS">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -360,7 +328,7 @@ Press save, and you should receive a message that the update has been successful
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://martynrees.github.io/2021/02/devnet-assosciate/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
@@ -398,7 +366,7 @@ Press save, and you should receive a message that the update has been successful
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2021/02/devnet-assosciate/" data-tooltip="Devnet Assosciate">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -406,7 +374,7 @@ Press save, and you should receive a message that the update has been successful
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2020/01/google-chrome-revoked-self-signed-certificates/" data-tooltip="Google Chrome Revoked Self Signed Certificates">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/" data-tooltip="CUCM Convert LDAP to LDAPS">
               
                   <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
                   <i class="fa fa-angle-right"></i>
@@ -424,7 +392,7 @@ Press save, and you should receive a message that the update has been successful
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://martynrees.github.io/2021/02/devnet-assosciate/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
@@ -448,7 +416,7 @@ Press save, and you should receive a message that the update has been successful
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmartynrees.github.io%2F2020%2F02%2Fcucm-convert-ldap-to-ldaps%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmartynrees.github.io%2F2021%2F02%2Fdevnet-assosciate%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
