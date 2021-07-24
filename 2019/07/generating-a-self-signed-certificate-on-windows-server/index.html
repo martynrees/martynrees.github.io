@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Hugo 0.80.0 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="generator" content="Hugo 0.86.0 with theme Tranquilpeak 0.4.7-BETA">
 <meta name="author" content="Martyn Rees">
 <meta name="keywords" content="">
 <meta name="description" content="When configuring a Windows server with the NPS Role in order to authenticate wireless clients using PEAP (Protected EAP), you may need to generate a temporary self signed certificate in order to complete testing, or finish the configuration. Configuring the NPS server for PEAP authentication is outside of the scope of this post, and may be covered in a future post, but this will at least allow you to generate a Certificate in order to get the services running and testing completed.">
@@ -94,7 +94,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
     
     
   </head>
@@ -130,7 +129,7 @@ if (!doNotTrack) {
         </a>
         <h4 class="sidebar-profile-name">Martyn Rees</h4>
         
-          <h5 class="sidebar-profile-bio">CSS - Collaboration @ Cisco. CCNP Collab, Devnet Assosciate, CWNA, CWDP, CMNA, ENWLSD &amp; Webex Ambasador Professional.</h5>
+          <h5 class="sidebar-profile-bio">CSS @ Cisco. CCNP Collab &amp; EN, Devnet Assosciate, CWNA, CWDP, CMNA, &amp; ENWLSD.</h5>
         
       </div>
     
@@ -264,12 +263,12 @@ in order to get the services running and testing completed.</p>
 <h2 id="powershell">Powershell</h2>
 <p>From a Powershell console (running as an administrator on the NPS Server) you&rsquo;ll
 need to run the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Powershell" data-lang="Powershell">$cert = New-SelfSignedCertificate -certstorelocation cert<span style="color:#960050;background-color:#1e0010">:</span>\localmachine\my -dnsname servername.domain.local
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Powershell" data-lang="Powershell">$cert = New-SelfSignedCertificate -certstorelocation cert<span style="color:#960050;background-color:#1e0010">:</span>\localmachine\my -dnsname servername.domain.local
 </code></pre></div><h5 id="note">Note</h5>
 <p>Be sure to configure the server name and domain name as the DNS name, otherwise
 authentication of users will fail if you only specify the domain name.
 For example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ps1" data-lang="ps1">$cert = New-SelfSignedCertificate -certstorelocation cert<span style="color:#960050;background-color:#1e0010">:</span>\localmachine\my -dnsname nps_server.boldlygoingnowhere.local
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ps1" data-lang="ps1">$cert = New-SelfSignedCertificate -certstorelocation cert<span style="color:#960050;background-color:#1e0010">:</span>\localmachine\my -dnsname nps_server.boldlygoingnowhere.local
 </code></pre></div><p>This will install the self signed certificate in the Personal Store of the local Computer.</p>
 <p>Using MMC we can then open the Certificate store for the local computer
 (not the current user, or the service account), and confirm that the certificate
@@ -446,13 +445,13 @@ signed certificate is only valid for 12 months.</p>
     
     <h4 id="about-card-name">Martyn Rees</h4>
     
-      <div id="about-card-bio">CSS - Collaboration @ Cisco. CCNP Collab, Devnet Assosciate, CWNA, CWDP, CMNA, ENWLSD &amp; Webex Ambasador Professional.</div>
+      <div id="about-card-bio">CSS @ Cisco. CCNP Collab &amp; EN, Devnet Assosciate, CWNA, CWDP, CMNA, &amp; ENWLSD.</div>
     
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        Customer Success Specialist - Collaboratoin
+        Customer Success Specialist @ Cisco
       </div>
     
     
