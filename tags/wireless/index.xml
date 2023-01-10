@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireless on Boldly Going Nowhere</title>
+    <link>https://martynrees.github.io/tags/wireless/</link>
+    <description>Recent content in Wireless on Boldly Going Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 10 Oct 2022 16:28:49 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>80211 Roaming</title>
+      <link>https://martynrees.github.io/2022/10/80211-roaming/</link>
+      <pubDate>Mon, 10 Oct 2022 16:28:49 +1030</pubDate>
+      
+      <guid>https://martynrees.github.io/2022/10/80211-roaming/</guid>
+      <description>Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and corporate campuses. With wireless roaming, users are able to move between different areas of the network without experiencing any disruption in their internet connection. This ensures a seamless and uninterrupted user experience.
+One of the key technologies that enables wireless roaming is 802.11r, which is a standard that was developed by the Institute of Electrical and Electronics Engineers (IEEE) to improve the speed and efficiency of wireless roaming.</description>
+    </item>
+    
+  </channel>
+</rss>
