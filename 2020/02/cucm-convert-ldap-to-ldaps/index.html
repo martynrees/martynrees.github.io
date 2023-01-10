@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Hugo 0.86.0 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.4.7-BETA">
 <meta name="author" content="Martyn Rees">
 <meta name="keywords" content="">
 <meta name="description" content="This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
@@ -145,7 +145,7 @@ if (!doNotTrack) {
         </a>
         <h4 class="sidebar-profile-name">Martyn Rees</h4>
         
-          <h5 class="sidebar-profile-bio">CSS @ Cisco. CCNP Collab &amp; EN, Devnet Assosciate, CWNA, CWDP, CMNA, &amp; ENWLSD.</h5>
+          <h5 class="sidebar-profile-bio">Senior UC &amp; Collaboration Specialist. CCNP Collaboration, CWNA, CWDP, CMNA, &amp; Webex Ambasador Professional. Cisco Champion 2018-2020.</h5>
         
       </div>
     
@@ -279,11 +279,11 @@ Note, that the Tomcat web service does need to be restarted during this process,
 <p>There are a couple of ways that we can extract the certificate from the LDAP server, but the easiest method is by using OpenSSL. Another mehtod is via a packet capture from CUCM, but this tends to take longer and is a bit more complex.</p>
 <p>If you are on a Mac or linux machine, you will probably already have OpenSSL installed, otherwise if you are on Windows you will need to install it first before attempting this method.</p>
 <p>From a shell command navigate to a directory that you want to save the certificate in and enter:</p>
-<pre><code>openssl s_client -showcerts -connect &lt;host&gt;:636 &gt;&gt; cert.txt
+<pre tabindex="0"><code>openssl s_client -showcerts -connect &lt;host&gt;:636 &gt;&gt; cert.txt
 </code></pre><p>From there open the cert.txt file in your favourite text editor, and copy the contents of the cert from the</p>
-<pre><code>-----BEGIN CERTIFICATE-----
+<pre tabindex="0"><code>-----BEGIN CERTIFICATE-----
 </code></pre><p>through to the</p>
-<pre><code>-----END CERTIFICATE-----
+<pre tabindex="0"><code>-----END CERTIFICATE-----
 </code></pre><p>and save the file as ldap_server.cer in a handy location on your local machine.</p>
 <p>From there, open up your web browser and log in to CUCM&rsquo;s OS admin page.</p>
 <p>Naviagte to Security &ndash;&gt; Certificate Management and select Upload Certificate.
@@ -292,7 +292,7 @@ Select Tomcat-Trust from the dropdown list to ensure that you are loading the ce
 <p>Browse your PC and select the cer file that you had previously saved, and select Upload.
 If successful you will receive a message about needing to restart Cisco Tomcat. You can either do this now, or at a later stage, but you cannot proceed with the next steps until you have completed the restart.</p>
 <p>To restart the Tomcat service log in to the admin CLI via SSH and enter (remembering that this will cause an outage):</p>
-<pre><code>Utils service restart Cisco Tomcat
+<pre tabindex="0"><code>Utils service restart Cisco Tomcat
 </code></pre><p>You will now have to wait 5-10 minutes for everything to be back online before you continue on with the next step.</p>
 <p>Once the web services are back up, log back in to CUCM Administration (not OS admin) and navigate to System &ndash;&gt; LDAP &ndash;&gt; LDAP Authentication.</p>
 <p><img src="https://martynrees.github.io/img/ldap-auth.png" alt="LDAP Authentication"></p>
@@ -333,7 +333,7 @@ Press save, and you should receive a message that the update has been successful
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2021/02/devnet-assosciate/" data-tooltip="Devnet Assosciate">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -384,7 +384,7 @@ Press save, and you should receive a message that the update has been successful
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2021 Martyn Rees. All Rights Reserved
+    &copy; 2023 Martyn Rees. All Rights Reserved
   </span>
 </footer>
 
@@ -397,7 +397,7 @@ Press save, and you should receive a message that the update has been successful
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://martynrees.github.io/2021/02/devnet-assosciate/" data-tooltip="Devnet Assosciate">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -467,13 +467,13 @@ Press save, and you should receive a message that the update has been successful
     
     <h4 id="about-card-name">Martyn Rees</h4>
     
-      <div id="about-card-bio">CSS @ Cisco. CCNP Collab &amp; EN, Devnet Assosciate, CWNA, CWDP, CMNA, &amp; ENWLSD.</div>
+      <div id="about-card-bio">Senior UC &amp; Collaboration Specialist. CCNP Collaboration, CWNA, CWDP, CMNA, &amp; Webex Ambasador Professional. Cisco Champion 2018-2020.</div>
     
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        Customer Success Specialist @ Cisco
+        Technical Solutions Architect
       </div>
     
     
