@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zigbee on Boldly Going Nowhere</title>
+    <link>https://martynrees.github.io/tags/zigbee/</link>
+    <description>Recent content in Zigbee on Boldly Going Nowhere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 11 Jul 2022 16:36:25 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/tags/zigbee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zigbee</title>
+      <link>https://martynrees.github.io/2022/07/zigbee/</link>
+      <pubDate>Mon, 11 Jul 2022 16:36:25 +1030</pubDate>
+      
+      <guid>https://martynrees.github.io/2022/07/zigbee/</guid>
+      <description>Having had zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my CWISA certification.
+Zigbee is a wireless networking protocol that is primarily used for low-power, low-data rate applications in the Internet of Things (IoT). It is based on the IEEE 802.15.4 standard, which defines the physical and media access control (MAC) layers of the communication stack.</description>
+    </item>
+    
+  </channel>
+</rss>
