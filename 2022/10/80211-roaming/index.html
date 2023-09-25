@@ -271,17 +271,24 @@ if (!doNotTrack) {
           <div class="post-content markdown">
             <div class="main-content-wrap">
               <p><strong>What is 802.11 roaming and why is is so important to users (and you)?</strong> <br />
-Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and campuses networks. A simplified explanation is that &ldquo;802.11 roaming refers to the process by which a wireless client device seamlessly transitions between different access points (APs) or base stations within a wireless network while maintaining an uninterrupted connection. Roaming is crucial for mobile devices, such as smartphones, laptops, or tablets, as they move within the coverage area of a Wi-Fi network.&ldquo;<br />
+Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and campuses networks. A simplified explanation is that &ldquo;802.11 roaming refers to the process by which a wireless client device seamlessly transitions between different access points (APs) or base stations within a wireless network while maintaining an uninterrupted connection. Roaming is crucial for mobile devices, such as smartphones, laptops, or tablets, as they move within the coverage area of a Wi-Fi network.&rdquo; <br />
 The reality is that acheiving this is a hell of a lot harder! BUT we have some standards and nerd knobs that help us to make it a little bit easier. <br />
 These include:</p>
 <ul>
-<li>802.11r - Fast BSS transition (current common standard)</li>
+<li>802.11r - Fast BSS transition (current common standard, and what we will cover in this post)</li>
 <li>802.11k - neighbour lists (for clients that support it)</li>
 <li>802.11v - Assisted Roaming (again, for clients that do support it)</li>
 </ul>
-<p>If roaming isn&rsquo;t fast and clean, then users will notice, complain, and it will be your job to fix it up. So lets look at how we can get that right in the first place.
-First, if you haven&rsquo;t done a <strong>proper design</strong>, then life WILL be harder, and the corners you cut at the start will cost you later! Considerations around AP placement, power levels, minumum/mandatory data rates, channel widths, which result in the overall cell size can all play a big part in getting roaming right from the start. But like we looked at above, there is also more to it than just the design, and design discussions isn&rsquo;t the aim of this post.</p>
-<p>802.11r is the current standard for roaming,</p>
+<p>If roaming isn&rsquo;t fast and clean, then users will notice, complain, and it will be your job to fix it up. So lets look at how we can get that right in the first place. <br />
+First, if you haven&rsquo;t done a <strong>proper design</strong>, then life <strong>WILL</strong> be harder, and the corners you cut at the start will cost you later! Considerations around AP placement, power levels, minumum/mandatory data rates, channel widths, which result in the overall cell size can all play a big part in getting roaming right from the start. But like we looked at above, there is also more to it than just the design, and design discussions isn&rsquo;t the aim of this post.</p>
+<p>802.11r is the current standard for roaming (replacing the previous OKC method, which some legacy devices might still support today, but that&rsquo;s another topic), and it improves the transition time for clients to move from one AP to the next, without the need for a full re-authentication. The official name is Fast BSS transition, and you guessed it, it&rsquo;s covered by the 802.11r amendmant. <br />
+802.11r provides two methods for the fast-roaming handshake: over the AIR, and over the Distribution System (DS). With this method, the wireless client performs just one initial authentication against the WLAN infrastructure when a connection is established to the first AP, and performs fast-secure roaming while roaming between APs of the same FT mobility domain.</p>
+<ul>
+<li>Over the Air — The client communicates directly with the target AP for authentication with the FT authentication algorithm.</li>
+<li>Over the DS - The client communicates with the target AP through the current AP, which then exchanges the FT action frames via the controller (in most cases)
+<img src="https://martynrees.github.io/img/roaming.jpg" alt="80211r roaming"></li>
+</ul>
+<p>One important thing to remember as well, is that if the WLAN/SSID is enabled for 802.11r, and a &ldquo;legacy&rdquo; client tries to connect to it that does not support .11r, then it will fail to connect. An Adaptive mode is usually available to allow for support of clients that do and don&rsquo;t support the standard, otherwise a seperate non 11r WLAN/SSID may be required.</p>
 
               
 
