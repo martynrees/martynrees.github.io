@@ -292,13 +292,13 @@ Lets break down what 6E actually introduces:</p>
 <li>No more backwards compatability: devices that don&rsquo;t support Wifi6E aren&rsquo;t able to use the 6ghz band, so no more backwards compatability issues.</li>
 <li>Security: WPA3 or Enhanced Open is mandatory on 6ghz. That&rsquo;s right, no WEP, WPA or even WPA2! As a result of requiring WPA3, PMF is also mandatory as well.</li>
 </ul>
-<p>As of March 2022, ACMA approved the use of the 5925-6425 MHz frequency band for use in Australia. From the image below, that means that we have access to the U-NII 5 part of the spectrum.
+<p>As of March 2022, ACMA approved the use of the 5925-6425 MHz frequency band for use in Australia. From the image below, that means that we have access to the U-NII 5 part of the spectrum. Hopefully not too far off, we will see the addition of further spectrum allocation, to allow for more channels to be available in Australia.
 <img src="https://martynrees.github.io/img/6E-channels.png" alt="6E">
 Whilst it&rsquo;s not the full 1200Mhz, this is still a significant chunk of spectrum which allows for scaling up to 6 x 80Mhz wide channels if required, 12 x 40Mhz channels, and 24 x 20Mhz channels. Even taking 6 non overlapping 80Mhz wide channels it still gives us a reasonable amount of re-use with a lower chance of CCI.<br /></p>
 <p>6E also levels up on security, and requires WPA3 SAE (WPA3 Personal), 802.1X-SHA256 (WPA3 Enterprise) or Opportunistic Wireless Encyrption (OWE), with no backwards compatability for WPA2 or Open SSID&rsquo;s, including no option for transition modes. <br />
 Because of these requirements, it is also mandatory for Protected Management Frames (PMF - 802.11w) to be implemented.</p>
-<p>Depending on the country you are in, as to when 6E support was added in the 9800, but for Australia and NZ, it requires a minimum of 17.12 release in order to be able to enable the 6Ghz radio on a supported AP.</p>
-<p>In another post, we will look at how clients discover 6E SSID&rsquo;s, and how to configure it on a 9800 Controller.</p>
+<p>Depending on the country you are in, as to when 6E support was added in the 9800, but for Australia, it requires a minimum of 17.12 release in order to be able to enable the 6Ghz radio on a supported AP (such as the 9136, and 9160 series of AP&rsquo;s.). Again, this is approved for indoor use only, but hopefully in the future we will see the addition of outdoor use added like we did with the 5ghz spectrum.</p>
+<p>In another post, we will look at how clients discover 6E only SSID&rsquo;s, how they discover 6ghz ssid&rsquo;s from the existing 2.4ghz and 5ghz SSID&rsquo;s, and how to configure it all on a 9800 Controller.</p>
 
               
 
