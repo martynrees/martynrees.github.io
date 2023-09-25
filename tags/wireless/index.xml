@@ -6,7 +6,19 @@
     <description>Recent content in Wireless on Boldly Going Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 10 Oct 2022 16:28:49 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 14:44:12 +0930</lastBuildDate><atom:link href="https://martynrees.github.io/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Wifi 6E</title>
+      <link>https://martynrees.github.io/2023/06/introducing-wifi-6e/</link>
+      <pubDate>Sun, 25 Jun 2023 14:44:12 +0930</pubDate>
+      
+      <guid>https://martynrees.github.io/2023/06/introducing-wifi-6e/</guid>
+      <description>Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?
+Both are based on the 802.11ax standard, so no difference there.
+What 6E does is introduces support for the 6Ghz band, which means more channels, less CCI, and the ability to deploy wider channel widths.
+Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.</description>
+    </item>
+    
     <item>
       <title>802.11 Roaming</title>
       <link>https://martynrees.github.io/2022/10/802.11-roaming/</link>

@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://martynrees.github.io/2022/10/802.11-roaming/</loc>
-    <lastmod>2022-10-10T16:28:49+10:30</lastmod>
-  </url><url>
     <loc>https://martynrees.github.io/</loc>
-    <lastmod>2022-10-10T16:28:49+10:30</lastmod>
+    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/2023/06/introducing-wifi-6e/</loc>
+    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/post/</loc>
-    <lastmod>2022-10-10T16:28:49+10:30</lastmod>
+    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/</loc>
-    <lastmod>2022-10-10T16:28:49+10:30</lastmod>
+    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/wireless/</loc>
+    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/2022/10/802.11-roaming/</loc>
     <lastmod>2022-10-10T16:28:49+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/cwisa/</loc>
