@@ -278,7 +278,7 @@ if (!doNotTrack) {
 <strong>What does this mean?</strong> <br />
 Well, digging a  bit deeper, it only covers the Cat9k range of AP&rsquo;s, so 9120, 9130,9136, 916x, etc<br />
 <em><strong>AND</strong></em> <br />
-It <strong>only</strong> impacts new AP&rsquo;s when they join the controller running 17.12. So if AP&rsquo;s are already joined to the controller and are upgraded from 17.9.x to 17.12.x then they will still use the old 9600bps rate, but then if you add a new AP to the controller, that will use the new 115200bps. <br />
+It <strong>only</strong> impacts new AP&rsquo;s when they join the controller running 17.12. So if AP&rsquo;s are already joined to the controller and are upgraded from 17.9.x to 17.12.x then they will still use the old 9600bps rate, but then if you add a new AP to the controller, that will use the new setting of 115200bps. <br />
 If an upgraded AP is set back to factory default though and joins the controller again, it will assume the new 115200bps config. So you could/will end up with some AP&rsquo;s on the old 9600bps config and some on the new 115200bps config. Or, once upgraded to 17.12 or higher then factory reset all AP&rsquo;s from the GUI, and then you&rsquo;ll have a standard across the board, no matter which AP you connect to (that&rsquo;s a Cat9k AP anyway, Wave1/2 are not impacted by this!).<br />
 <strong>WHY?</strong> <br />
 Turns out the reasoning for this is simple, it&rsquo;s so that the AP can boot faster!</p>
