@@ -13,8 +13,7 @@
       <pubDate>Tue, 10 Oct 2023 12:21:35 +1030</pubDate>
       
       <guid>https://martynrees.github.io/2023/10/9800-wlc-cat9k-ap-default-console-baud-rate/</guid>
-      <description>Tucked away in the 17.12 release notes for the 9800 WLC is a one liner that is sure to catch people out in the near future, or me the other day:
-From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps. What does this mean? Well, digging a bit deeper, it only covers the Cat9k range of AP&amp;rsquo;s, so 9120, 9130,9136, 916x, etc</description>
+      <description>Tucked away in the 17.12 release notes for the 9800 WLC is a one liner that is sure to catch people out in the near future(or me the other day): From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps. What does this mean? Well, digging a bit deeper, it only covers the Cat9k range of AP&amp;rsquo;s, so 9120, 9130,9136, 916x, etc</description>
     </item>
     
     <item>
