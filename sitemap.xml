@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://martynrees.github.io/</loc>
-    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
+    <loc>https://martynrees.github.io/tags/9800/</loc>
+    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2023/06/introducing-wifi-6e/</loc>
-    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
+    <loc>https://martynrees.github.io/2023/10/9800-wlc-cat9k-ap-default-console-baud-rate/</loc>
+    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/</loc>
+    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/tags/cisco/</loc>
+    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/post/</loc>
-    <lastmod>2023-06-25T14:44:12+09:30</lastmod>
+    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/</loc>
+    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/2023/06/introducing-wifi-6e/</loc>
     <lastmod>2023-06-25T14:44:12+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/wireless/</loc>
@@ -36,9 +45,6 @@
     <lastmod>2022-07-11T16:36:25+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/certificates/</loc>
-    <lastmod>2020-02-18T09:38:21+10:30</lastmod>
-  </url><url>
-    <loc>https://martynrees.github.io/tags/cisco/</loc>
     <lastmod>2020-02-18T09:38:21+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/cucm/</loc>
