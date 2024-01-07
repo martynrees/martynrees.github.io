@@ -6,16 +6,14 @@
     <description>Recent content in CWISA on Boldly Going Nowhere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 11 Jul 2022 16:36:25 +1030</lastBuildDate><atom:link href="https://martynrees.github.io/tags/cwisa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 16:36:25 +1030</lastBuildDate>
+    <atom:link href="https://martynrees.github.io/tags/cwisa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zigbee</title>
       <link>https://martynrees.github.io/2022/07/zigbee/</link>
       <pubDate>Mon, 11 Jul 2022 16:36:25 +1030</pubDate>
-      
       <guid>https://martynrees.github.io/2022/07/zigbee/</guid>
-      <description>Having had zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my CWISA certification.
-Zigbee is a wireless networking protocol that is primarily used for low-power, low-data rate applications in the Internet of Things (IoT). Zigbee falls under the IEEE 802.11.15.4 specification, which covers a suite of high level communications protocls for creating personal area networks (PAN&amp;rsquo;s) via low power digitial radios.</description>
+      <description>Having had zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my CWISA certification.&#xA;Zigbee is a wireless networking protocol that is primarily used for low-power, low-data rate applications in the Internet of Things (IoT). Zigbee falls under the IEEE 802.11.15.4 specification, which covers a suite of high level communications protocls for creating personal area networks (PAN&amp;rsquo;s) via low power digitial radios.</description>
     </item>
-    
   </channel>
 </rss>
