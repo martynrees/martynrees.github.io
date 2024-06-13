@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LDAP on Boldly Going Nowhere</title>
     <link>https://martynrees.github.io/tags/ldap/</link>
     <description>Recent content in LDAP on Boldly Going Nowhere</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-uk</language>
     <lastBuildDate>Tue, 18 Feb 2020 09:38:21 +1030</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/ldap/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,10 @@
       <link>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</link>
       <pubDate>Tue, 18 Feb 2020 09:38:21 +1030</pubDate>
       <guid>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</guid>
-      <description>This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.&#xA;Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.&#xA;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&#xA;The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.</description>
+      <description>This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
+Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
+https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
+The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.</description>
     </item>
   </channel>
 </rss>

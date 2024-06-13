@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CWNP on Boldly Going Nowhere</title>
     <link>https://martynrees.github.io/tags/cwnp/</link>
     <description>Recent content in CWNP on Boldly Going Nowhere</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-uk</language>
     <lastBuildDate>Thu, 08 Aug 2019 10:19:48 +0930</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/cwnp/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,8 @@
       <link>https://martynrees.github.io/2019/08/cwnp-certification-program/</link>
       <pubDate>Thu, 08 Aug 2019 10:19:48 +0930</pubDate>
       <guid>https://martynrees.github.io/2019/08/cwnp-certification-program/</guid>
-      <description>This post is more about finding where to start with the CWNP program, rather than focussing on any particular exam or level of knowledge.&#xA;The CWNP certification program is vendor neutral, and is seen to be the best way to learn about wireless without any specific vendors terms or proprietary information being thrown at you, and best of all you don&amp;rsquo;t have to remember any menu structure or config file structure for the exams&amp;hellip;</description>
+      <description>This post is more about finding where to start with the CWNP program, rather than focussing on any particular exam or level of knowledge.
+The CWNP certification program is vendor neutral, and is seen to be the best way to learn about wireless without any specific vendors terms or proprietary information being thrown at you, and best of all you don&amp;rsquo;t have to remember any menu structure or config file structure for the exams&amp;hellip;</description>
     </item>
   </channel>
 </rss>
