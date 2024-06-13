@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://martynrees.github.io/sitemap.xml

@@ -4,15 +4,20 @@
     <title>9800 on Boldly Going Nowhere</title>
     <link>https://martynrees.github.io/tags/9800/</link>
     <description>Recent content in 9800 on Boldly Going Nowhere</description>
+    <image>
+      <title>Boldly Going Nowhere</title>
+      <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
-    <language>en-uk</language>
+    <language>en</language>
     <lastBuildDate>Tue, 10 Oct 2023 12:21:35 +1030</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/9800/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>9800 WLC Cat9k AP Default Console Baud Rate</title>
-      <link>https://martynrees.github.io/2023/10/9800-wlc-cat9k-ap-default-console-baud-rate/</link>
+      <link>https://martynrees.github.io/post/console-speed/</link>
       <pubDate>Tue, 10 Oct 2023 12:21:35 +1030</pubDate>
-      <guid>https://martynrees.github.io/2023/10/9800-wlc-cat9k-ap-default-console-baud-rate/</guid>
+      <guid>https://martynrees.github.io/post/console-speed/</guid>
       <description>The current long term release of the IOS-XE 9800 WLC is feature packed, but tucked away in the release notes is a one liner that is sure to catch people out in the near future(or me the other day): From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps. What does this mean? Well, digging a bit deeper, it only covers the Cat9k range of AP&amp;rsquo;s, so 9120, 9130,9136, 916x, etc</description>
     </item>
   </channel>

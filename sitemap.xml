@@ -5,7 +5,7 @@
     <loc>https://martynrees.github.io/tags/9800/</loc>
     <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2023/10/9800-wlc-cat9k-ap-default-console-baud-rate/</loc>
+    <loc>https://martynrees.github.io/post/console-speed/</loc>
     <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/</loc>
@@ -20,16 +20,16 @@
     <loc>https://martynrees.github.io/tags/</loc>
     <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2023/06/introducing-wifi-6e/</loc>
+    <loc>https://martynrees.github.io/post/introducing_6e/</loc>
     <lastmod>2023-06-25T14:44:12+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/wireless/</loc>
     <lastmod>2023-06-25T14:44:12+09:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2023/01/cwisa/</loc>
+    <loc>https://martynrees.github.io/post/cwisa/</loc>
     <lastmod>2023-01-25T10:37:09+09:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2022/10/802.11-roaming/</loc>
+    <loc>https://martynrees.github.io/post/80211-roaming/</loc>
     <lastmod>2022-10-10T16:28:49+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/cwisa/</loc>
@@ -41,7 +41,7 @@
     <loc>https://martynrees.github.io/tags/zigbee/</loc>
     <lastmod>2022-07-11T16:36:25+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2022/07/zigbee/</loc>
+    <loc>https://martynrees.github.io/post/zigbee/</loc>
     <lastmod>2022-07-11T16:36:25+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/certificates/</loc>
@@ -50,7 +50,7 @@
     <loc>https://martynrees.github.io/tags/cucm/</loc>
     <lastmod>2020-02-18T09:38:21+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</loc>
+    <loc>https://martynrees.github.io/post/cucm-ldaps/</loc>
     <lastmod>2020-02-18T09:38:21+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/ldap/</loc>
@@ -62,7 +62,7 @@
     <loc>https://martynrees.github.io/tags/chrome/</loc>
     <lastmod>2020-01-03T10:25:14+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2020/01/google-chrome-revoked-self-signed-certificates/</loc>
+    <loc>https://martynrees.github.io/post/chrome-cert/</loc>
     <lastmod>2020-01-03T10:25:14+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/lab/</loc>
@@ -83,13 +83,13 @@
     <loc>https://martynrees.github.io/tags/cwnp/</loc>
     <lastmod>2019-08-08T10:19:48+09:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2019/08/cwnp-certification-program/</loc>
+    <loc>https://martynrees.github.io/post/cwnp/</loc>
     <lastmod>2019-08-08T10:19:48+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/cwsp/</loc>
     <lastmod>2019-08-08T10:19:48+09:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/2019/07/generating-a-self-signed-certificate-on-windows-server/</loc>
+    <loc>https://martynrees.github.io/post/windows-ssl/</loc>
     <lastmod>2019-07-22T12:04:17+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/meraki/</loc>

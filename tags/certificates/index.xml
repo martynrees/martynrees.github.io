@@ -4,15 +4,20 @@
     <title>Certificates on Boldly Going Nowhere</title>
     <link>https://martynrees.github.io/tags/certificates/</link>
     <description>Recent content in Certificates on Boldly Going Nowhere</description>
+    <image>
+      <title>Boldly Going Nowhere</title>
+      <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
-    <language>en-uk</language>
+    <language>en</language>
     <lastBuildDate>Tue, 18 Feb 2020 09:38:21 +1030</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/certificates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CUCM Convert LDAP to LDAPS</title>
-      <link>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</link>
+      <link>https://martynrees.github.io/post/cucm-ldaps/</link>
       <pubDate>Tue, 18 Feb 2020 09:38:21 +1030</pubDate>
-      <guid>https://martynrees.github.io/2020/02/cucm-convert-ldap-to-ldaps/</guid>
+      <guid>https://martynrees.github.io/post/cucm-ldaps/</guid>
       <description>This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
 Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
 https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
@@ -20,9 +25,9 @@ The short of it is that Microsoft are enforcing that connections should now be o
     </item>
     <item>
       <title>Google Chrome Revoked Self Signed Certificates</title>
-      <link>https://martynrees.github.io/2020/01/google-chrome-revoked-self-signed-certificates/</link>
+      <link>https://martynrees.github.io/post/chrome-cert/</link>
       <pubDate>Fri, 03 Jan 2020 10:25:14 +1030</pubDate>
-      <guid>https://martynrees.github.io/2020/01/google-chrome-revoked-self-signed-certificates/</guid>
+      <guid>https://martynrees.github.io/post/chrome-cert/</guid>
       <description>Google Chrome can block you from getting to your lab devices (like your WLC) or other devices that have self signed certicates. If you get an error like this, and you can&amp;rsquo;t get past, then there is still a way without having to buy a signed cert!
 To get around this click somewhere on the page and then type thisisunsafe
 Then like magic Chrome will load the page!</description>
