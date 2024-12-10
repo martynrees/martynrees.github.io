@@ -20,8 +20,7 @@
       <guid>https://martynrees.github.io/post/console-speed/</guid>
       <description>&lt;p&gt;The current long term release of the IOS-XE 9800 WLC is feature packed, but tucked away in the &lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/wireless/controller/9800/17-12/release-notes/rn-17-12-9800.html#behavior-changes&#34;&gt;release notes&lt;/a&gt; is a one liner that is sure to catch people out in the near future(or me the other day): &lt;br /&gt;
 &lt;em&gt;&lt;strong&gt;From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps.&lt;/strong&gt;&lt;/em&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/115200.png&#34; alt=&#34;115200&#34;  /&gt;
-
+&lt;img alt=&#34;115200&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/115200.png&#34;&gt;
 &lt;strong&gt;What does this mean?&lt;/strong&gt; &lt;br /&gt;
 Well, digging a  bit deeper, it only covers the Cat9k range of AP&amp;rsquo;s, so 9120, 9130,9136, 916x, etc&lt;br /&gt;
 &lt;em&gt;&lt;strong&gt;AND&lt;/strong&gt;&lt;/em&gt; &lt;br /&gt;

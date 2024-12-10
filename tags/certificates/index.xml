@@ -30,8 +30,7 @@
       <guid>https://martynrees.github.io/post/chrome-cert/</guid>
       <description>&lt;p&gt;Google Chrome can block you from getting to your lab devices (like your WLC) or other devices that have self signed certicates.
 If you get an error like this, and you can&amp;rsquo;t get past, then there is still a way without having to buy a signed cert!&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/cert-error.png&#34; alt=&#34;Certificate&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Certificate&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/cert-error.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;To get around this click somewhere on the page and then type &lt;strong&gt;thisisunsafe&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Then like magic Chrome will load the page!&lt;/p&gt;</description>
     </item>
