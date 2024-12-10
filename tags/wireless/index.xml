@@ -9,7 +9,7 @@
       <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <lastBuildDate>Sun, 25 Jun 2023 14:44:12 +0930</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
@@ -18,17 +18,21 @@
       <link>https://martynrees.github.io/post/introducing_6e/</link>
       <pubDate>Sun, 25 Jun 2023 14:44:12 +0930</pubDate>
       <guid>https://martynrees.github.io/post/introducing_6e/</guid>
-      <description>Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?
-Both are based on the 802.11ax standard, so no difference there.
-What 6E does is introduces support for the 6Ghz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.
-Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.</description>
+      <description>&lt;p&gt;Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?&lt;br /&gt;
+Both are based on the 802.11ax standard, so no difference there.&lt;br /&gt;
+What 6E does is introduces support for the 6Ghz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.&lt;br /&gt;
+Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.11 use, and like 2.4ghz and 5ghz, this is unlicenced spectrum*. Another thing to note, is that currently 6E is only approved for indoor use.&lt;br /&gt;
+Lets break down what 6E actually introduces:&lt;/p&gt;</description>
     </item>
     <item>
       <title>802.11 Roaming</title>
       <link>https://martynrees.github.io/post/80211-roaming/</link>
       <pubDate>Mon, 10 Oct 2022 16:28:49 +1030</pubDate>
       <guid>https://martynrees.github.io/post/80211-roaming/</guid>
-      <description>What is 802.11r roaming and why is is so important to users (and you)? Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and campus networks. A simplified explanation is that &amp;ldquo;802.11 roaming refers to the process by which a wireless client device seamlessly transitions between different access points (APs) or base stations within a wireless network while maintaining an uninterrupted connection.</description>
+      <description>&lt;p&gt;&lt;strong&gt;What is 802.11r roaming and why is is so important to users (and you)?&lt;/strong&gt; &lt;br /&gt;
+Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and campus networks. A simplified explanation is that &amp;ldquo;802.11 roaming refers to the process by which a wireless client device seamlessly transitions between different access points (APs) or base stations within a wireless network while maintaining an uninterrupted connection. Roaming is crucial for mobile devices, such as smartphones, laptops, or tablets, as they move within the coverage area of a Wi-Fi network.&amp;rdquo; &lt;br /&gt;
+The reality is that acheiving this is a hell of a lot harder! BUT we have some standards and nerd knobs that help us to make it a little bit easier. &lt;br /&gt;
+These include:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -9,7 +9,7 @@
       <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Oct 2023 12:21:35 +1030</lastBuildDate>
     <atom:link href="https://martynrees.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -18,74 +18,109 @@
       <link>https://martynrees.github.io/post/console-speed/</link>
       <pubDate>Tue, 10 Oct 2023 12:21:35 +1030</pubDate>
       <guid>https://martynrees.github.io/post/console-speed/</guid>
-      <description>The current long term release of the IOS-XE 9800 WLC is feature packed, but tucked away in the release notes is a one liner that is sure to catch people out in the near future(or me the other day): From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps. What does this mean? Well, digging a bit deeper, it only covers the Cat9k range of AP&amp;rsquo;s, so 9120, 9130,9136, 916x, etc</description>
+      <description>&lt;p&gt;The current long term release of the IOS-XE 9800 WLC is feature packed, but tucked away in the &lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/wireless/controller/9800/17-12/release-notes/rn-17-12-9800.html#behavior-changes&#34;&gt;release notes&lt;/a&gt; is a one liner that is sure to catch people out in the near future(or me the other day): &lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps.&lt;/strong&gt;&lt;/em&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/115200.png&#34; alt=&#34;115200&#34;  /&gt;
+
+&lt;strong&gt;What does this mean?&lt;/strong&gt; &lt;br /&gt;
+Well, digging a  bit deeper, it only covers the Cat9k range of AP&amp;rsquo;s, so 9120, 9130,9136, 916x, etc&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;AND&lt;/strong&gt;&lt;/em&gt; &lt;br /&gt;
+It &lt;strong&gt;only&lt;/strong&gt; impacts new (or factory reset) AP&amp;rsquo;s when they join the controller running 17.12. So if AP&amp;rsquo;s are already joined to the controller and are upgraded from 17.9.x to 17.12.x then they will still use the old 9600bps rate, but then if you add a new AP to the controller, that will use the new setting of 115200bps. &lt;br /&gt;
+If an upgraded AP is set back to factory default though and joins the controller again, it will assume the new 115200bps config. So you could/will end up with some AP&amp;rsquo;s on the old 9600bps config and some on the new 115200bps config. Or, once upgraded to 17.12 or higher then factory reset all AP&amp;rsquo;s from the GUI, and then you&amp;rsquo;ll have a standard across the board, no matter which AP you connect to (that&amp;rsquo;s a Cat9k AP anyway, Wave1/2 are not impacted by this!).&lt;br /&gt;
+&lt;strong&gt;WHY?&lt;/strong&gt; &lt;br /&gt;
+Turns out the reasoning for this is simple, it&amp;rsquo;s so that the AP can boot faster!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introducing Wifi 6E</title>
       <link>https://martynrees.github.io/post/introducing_6e/</link>
       <pubDate>Sun, 25 Jun 2023 14:44:12 +0930</pubDate>
       <guid>https://martynrees.github.io/post/introducing_6e/</guid>
-      <description>Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?
-Both are based on the 802.11ax standard, so no difference there.
-What 6E does is introduces support for the 6Ghz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.
-Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.</description>
+      <description>&lt;p&gt;Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?&lt;br /&gt;
+Both are based on the 802.11ax standard, so no difference there.&lt;br /&gt;
+What 6E does is introduces support for the 6Ghz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.&lt;br /&gt;
+Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.11 use, and like 2.4ghz and 5ghz, this is unlicenced spectrum*. Another thing to note, is that currently 6E is only approved for indoor use.&lt;br /&gt;
+Lets break down what 6E actually introduces:&lt;/p&gt;</description>
     </item>
     <item>
       <title>CWISA</title>
       <link>https://martynrees.github.io/post/cwisa/</link>
       <pubDate>Wed, 25 Jan 2023 10:37:09 +0930</pubDate>
       <guid>https://martynrees.github.io/post/cwisa/</guid>
-      <description>This will be a short post, summarising my experience with the CWISA exam, which I passed recently. The Certified Wireless IoT Solutions Administrator, or CWISA is the assosciate level exam that starts you on the CWNP IoT certification track. It is also a requirement for CWNE certification.
-As it&amp;rsquo;s an assosciate level exam, the depth isn&amp;rsquo;t huge, but the topics covered are broad. I took the newly released CWISA-102 exam. This exam will stay current until September 2025, as it was only recently refreshed.</description>
+      <description>&lt;p&gt;This will be a short post, summarising my experience with the CWISA exam, which I passed recently.
+&lt;img loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/cwisa.png&#34; alt=&#34;CWISA&#34;  /&gt;
+
+The Certified Wireless IoT Solutions Administrator, or CWISA is the assosciate level exam that starts you on the CWNP IoT certification track. It is also a requirement for CWNE certification.&lt;br /&gt;
+As it&amp;rsquo;s an assosciate level exam, the depth isn&amp;rsquo;t huge, but the topics covered are broad. I took the newly released &lt;a href=&#34;https://www.cwnp.com/certifications/cwisa/&#34;&gt;CWISA-102&lt;/a&gt; exam. This exam will stay current until September 2025, as it was only recently refreshed. &lt;br /&gt;
+For study, it&amp;rsquo;s first important to thoroughly read through the &lt;a href=&#34;https://www.cwnp.com/uploads/cwisa-102-objectives-2022.pdf&#34;&gt;exam objectives&lt;/a&gt; to understand the topics covered, and the depth of knowledge required.&lt;br /&gt;
+As I&amp;rsquo;ve already had quite a bit of experience with a lot of the topics through my home automation journey, this wasn&amp;rsquo;t a hard exam to study for, and using the &lt;a href=&#34;https://www.cwnp.com/cwisa102sg/&#34;&gt;study guide&lt;/a&gt; from the previous version of the exam was sufficient for me, with a couple of read throughs. My prior knowledge of zigbee, as well as having previously passed CWNA certainly helped to speed up the process.&lt;br /&gt;
+I always ensure that I get the official practice exams, as they are a great gauge of where i&amp;rsquo;m at in my preperation, and they also help to prepare you for the typical language used in the exam. This is always important for me, as it gets my head in the right space and can help for some of those questions that are worded a little funny that you see in ever vendors exam.&lt;br /&gt;
+Even with my confidence, I was still nervous heading in to the exam, as you do wonder if you are being over confident in your prior knowledge, and will it actually stack up when the time counts.
+Thankfully it was more than enough to get me through, and I was soon able to breath a sigh of relief when the confirmation that I had passed came up on the screen with a 51/60.&lt;br /&gt;
+The exam is certainly fair, and covered all of the topics listed in the objectives, with the expected level of knowledge required for all of the topics in order to pass.&lt;/p&gt;</description>
     </item>
     <item>
       <title>802.11 Roaming</title>
       <link>https://martynrees.github.io/post/80211-roaming/</link>
       <pubDate>Mon, 10 Oct 2022 16:28:49 +1030</pubDate>
       <guid>https://martynrees.github.io/post/80211-roaming/</guid>
-      <description>What is 802.11r roaming and why is is so important to users (and you)? Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and campus networks. A simplified explanation is that &amp;ldquo;802.11 roaming refers to the process by which a wireless client device seamlessly transitions between different access points (APs) or base stations within a wireless network while maintaining an uninterrupted connection.</description>
+      <description>&lt;p&gt;&lt;strong&gt;What is 802.11r roaming and why is is so important to users (and you)?&lt;/strong&gt; &lt;br /&gt;
+Wireless roaming is an essential feature for any wireless network, especially for those that are deployed in large, multi-building environments such as universities, hospitals, and campus networks. A simplified explanation is that &amp;ldquo;802.11 roaming refers to the process by which a wireless client device seamlessly transitions between different access points (APs) or base stations within a wireless network while maintaining an uninterrupted connection. Roaming is crucial for mobile devices, such as smartphones, laptops, or tablets, as they move within the coverage area of a Wi-Fi network.&amp;rdquo; &lt;br /&gt;
+The reality is that acheiving this is a hell of a lot harder! BUT we have some standards and nerd knobs that help us to make it a little bit easier. &lt;br /&gt;
+These include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zigbee</title>
       <link>https://martynrees.github.io/post/zigbee/</link>
       <pubDate>Mon, 11 Jul 2022 16:36:25 +1030</pubDate>
       <guid>https://martynrees.github.io/post/zigbee/</guid>
-      <description>Having had zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my CWISA certification.
-Zigbee is a wireless networking protocol that is primarily used for low-power, low-data rate applications in the Internet of Things (IoT). Zigbee falls under the IEEE 802.11.15.4 specification, which covers a suite of high level communications protocls for creating personal area networks (PAN&amp;rsquo;s) via low power digitial radios.</description>
+      <description>&lt;p&gt;Having had zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my CWISA certification.&lt;/p&gt;
+&lt;p&gt;Zigbee is a wireless networking protocol that is primarily used for low-power, low-data rate applications in the Internet of Things (IoT). Zigbee falls under the IEEE 802.11.15.4 specification, which covers a suite of high level communications protocls for creating personal area networks (PAN&amp;rsquo;s) via low power digitial radios.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CUCM Convert LDAP to LDAPS</title>
       <link>https://martynrees.github.io/post/cucm-ldaps/</link>
       <pubDate>Tue, 18 Feb 2020 09:38:21 +1030</pubDate>
       <guid>https://martynrees.github.io/post/cucm-ldaps/</guid>
-      <description>This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.
-Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.
-https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html
-The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods.</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;This post is applicable for both CUCM and Unity Connection, but for simplicity sake we will just cover CUCM here. The process of uploading and converting Unity Connection is the same. This process is also the same no matter which version of CUCM/Unity connection.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Cisco have released the following field notice that covers upcoming changes to connections between CUCM/unityCx and LDAP servers for syncronising and authenticating users.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&#34;&gt;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The short of it is that Microsoft are enforcing that connections should now be over SSL rather than unencrypted transport methods. This was initially going to be enforced from March security patches onwards, but has now been pushed back. Regardless of the time frame though, it is important to make these changes now, rather than be caught in a rush later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Chrome Revoked Self Signed Certificates</title>
       <link>https://martynrees.github.io/post/chrome-cert/</link>
       <pubDate>Fri, 03 Jan 2020 10:25:14 +1030</pubDate>
       <guid>https://martynrees.github.io/post/chrome-cert/</guid>
-      <description>Google Chrome can block you from getting to your lab devices (like your WLC) or other devices that have self signed certicates. If you get an error like this, and you can&amp;rsquo;t get past, then there is still a way without having to buy a signed cert!
-To get around this click somewhere on the page and then type thisisunsafe
-Then like magic Chrome will load the page!</description>
+      <description>&lt;p&gt;Google Chrome can block you from getting to your lab devices (like your WLC) or other devices that have self signed certicates.
+If you get an error like this, and you can&amp;rsquo;t get past, then there is still a way without having to buy a signed cert!&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/cert-error.png&#34; alt=&#34;Certificate&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;To get around this click somewhere on the page and then type &lt;strong&gt;thisisunsafe&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Then like magic Chrome will load the page!&lt;/p&gt;</description>
     </item>
     <item>
       <title>CWNP Certification Program</title>
       <link>https://martynrees.github.io/post/cwnp/</link>
       <pubDate>Thu, 08 Aug 2019 10:19:48 +0930</pubDate>
       <guid>https://martynrees.github.io/post/cwnp/</guid>
-      <description>This post is more about finding where to start with the CWNP program, rather than focussing on any particular exam or level of knowledge.
-The CWNP certification program is vendor neutral, and is seen to be the best way to learn about wireless without any specific vendors terms or proprietary information being thrown at you, and best of all you don&amp;rsquo;t have to remember any menu structure or config file structure for the exams&amp;hellip;</description>
+      <description>&lt;p&gt;This post is more about finding where to start with the CWNP program,
+rather than focussing on any particular exam or level of knowledge.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.cwnp.com&#34;&gt;CWNP&lt;/a&gt; certification program is vendor neutral, and is
+seen to be the best way to learn about wireless without any specific vendors terms
+or proprietary information being thrown at you, and best of all you don&amp;rsquo;t have to
+remember any menu structure or config file structure for the exams&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Generating a Self Signed Certificate on Windows Server</title>
       <link>https://martynrees.github.io/post/windows-ssl/</link>
       <pubDate>Mon, 22 Jul 2019 12:04:17 +0930</pubDate>
       <guid>https://martynrees.github.io/post/windows-ssl/</guid>
-      <description>When configuring a Windows server with the NPS Role in order to authenticate wireless clients using PEAP (Protected EAP), you may need to generate a temporary self signed certificate in order to complete testing, or finish the configuration. Configuring the NPS server for PEAP authentication is outside of the scope of this post, and may be covered in a future post, but this will at least allow you to generate a Certificate in order to get the services running and testing completed.</description>
+      <description>&lt;p&gt;When configuring a Windows server with the NPS Role in order to authenticate
+wireless clients using PEAP (Protected EAP), you may need to generate a temporary
+self signed certificate in order to complete testing, or finish the configuration.
+Configuring the NPS server for PEAP authentication is outside of the scope of this post,
+and may be covered in a future post, but this will at least allow you to generate a Certificate
+in order to get the services running and testing completed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

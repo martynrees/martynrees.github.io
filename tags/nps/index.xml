@@ -9,7 +9,7 @@
       <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Jul 2019 12:04:17 +0930</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/nps/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,12 @@
       <link>https://martynrees.github.io/post/windows-ssl/</link>
       <pubDate>Mon, 22 Jul 2019 12:04:17 +0930</pubDate>
       <guid>https://martynrees.github.io/post/windows-ssl/</guid>
-      <description>When configuring a Windows server with the NPS Role in order to authenticate wireless clients using PEAP (Protected EAP), you may need to generate a temporary self signed certificate in order to complete testing, or finish the configuration. Configuring the NPS server for PEAP authentication is outside of the scope of this post, and may be covered in a future post, but this will at least allow you to generate a Certificate in order to get the services running and testing completed.</description>
+      <description>&lt;p&gt;When configuring a Windows server with the NPS Role in order to authenticate
+wireless clients using PEAP (Protected EAP), you may need to generate a temporary
+self signed certificate in order to complete testing, or finish the configuration.
+Configuring the NPS server for PEAP authentication is outside of the scope of this post,
+and may be covered in a future post, but this will at least allow you to generate a Certificate
+in order to get the services running and testing completed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

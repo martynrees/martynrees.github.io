@@ -9,7 +9,7 @@
       <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Jan 2020 10:25:14 +1030</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +18,12 @@
       <link>https://martynrees.github.io/post/chrome-cert/</link>
       <pubDate>Fri, 03 Jan 2020 10:25:14 +1030</pubDate>
       <guid>https://martynrees.github.io/post/chrome-cert/</guid>
-      <description>Google Chrome can block you from getting to your lab devices (like your WLC) or other devices that have self signed certicates. If you get an error like this, and you can&amp;rsquo;t get past, then there is still a way without having to buy a signed cert!
-To get around this click somewhere on the page and then type thisisunsafe
-Then like magic Chrome will load the page!</description>
+      <description>&lt;p&gt;Google Chrome can block you from getting to your lab devices (like your WLC) or other devices that have self signed certicates.
+If you get an error like this, and you can&amp;rsquo;t get past, then there is still a way without having to buy a signed cert!&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/cert-error.png&#34; alt=&#34;Certificate&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;To get around this click somewhere on the page and then type &lt;strong&gt;thisisunsafe&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Then like magic Chrome will load the page!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

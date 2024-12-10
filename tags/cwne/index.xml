@@ -9,7 +9,7 @@
       <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <lastBuildDate>Thu, 08 Aug 2019 10:19:48 +0930</lastBuildDate>
     <atom:link href="https://martynrees.github.io/tags/cwne/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,12 @@
       <link>https://martynrees.github.io/post/cwnp/</link>
       <pubDate>Thu, 08 Aug 2019 10:19:48 +0930</pubDate>
       <guid>https://martynrees.github.io/post/cwnp/</guid>
-      <description>This post is more about finding where to start with the CWNP program, rather than focussing on any particular exam or level of knowledge.
-The CWNP certification program is vendor neutral, and is seen to be the best way to learn about wireless without any specific vendors terms or proprietary information being thrown at you, and best of all you don&amp;rsquo;t have to remember any menu structure or config file structure for the exams&amp;hellip;</description>
+      <description>&lt;p&gt;This post is more about finding where to start with the CWNP program,
+rather than focussing on any particular exam or level of knowledge.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.cwnp.com&#34;&gt;CWNP&lt;/a&gt; certification program is vendor neutral, and is
+seen to be the best way to learn about wireless without any specific vendors terms
+or proprietary information being thrown at you, and best of all you don&amp;rsquo;t have to
+remember any menu structure or config file structure for the exams&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
