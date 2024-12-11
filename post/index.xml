@@ -21,7 +21,7 @@
       <description>&lt;p&gt;Packet captures have existed for a long time on the Meraki platform, and have saved me great amounts of travel time over the years. But now they have had a refresh and not just a GUI makeover (ok well it did get that as well.), but new features added too. Proactive PCAP and cloud storage are the main stars here.&lt;br /&gt;
 The old view served us well, and was clean, easy to use and just did its job.
 &lt;img alt=&#34;Old PCAP view&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/old_pcap.png&#34;&gt;
-Now called Intelligent Capture, it still does what the old feature did, but with a newer fresher look, and now includes cloud storage (so no more losing files) and the newest feature, Proactive PCAP&amp;rsquo;s that we will have a look at in the next post.
+Now called Intelligent Capture, it still does what the old feature did, but with a newer fresher look, and now includes cloud storage (so no more losing files) and the newest feature, Proactive PCAP&amp;rsquo;s that we will have a look at in the next post and create a bit of a series rather than one long post.
 &lt;img alt=&#34;New PCAP view&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/new_pcap.png&#34;&gt;
 Nothing overly exciting in the Manual capture, but if we select to save to the cloud then it will be retained for 90 days before being deleted.&lt;/p&gt;</description>
     </item>
