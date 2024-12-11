@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://martynrees.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cisco Live Melbourne &#39;24</title>
+      <link>https://martynrees.github.io/post/clmel/</link>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://martynrees.github.io/post/clmel/</guid>
+      <description>&lt;p&gt;Having been to I think 10 now Cisco Live events this years was a bit different as I was presenting.&lt;br /&gt;
+One thing as an attendee that you don&amp;rsquo;t get is an appreciation for how much time and effort goes in to a 90 minute presentation. For me it was about 1 hour of prep per minute of presentation in the leadup to the event. I know for some others they spent even more time again.&lt;br /&gt;
+My session covered Automating the deployment of wireless networks (9800 WLC&amp;rsquo;s) using Catalyst Center (formerly DNA-C), and was 90 mins long. If you&amp;rsquo;d like to watch the replay or review the deck you can find it all &lt;a href=&#34;https://www.ciscolive.com/on-demand/on-demand-library.html?search=martyn&amp;amp;search.event=1731453386131001pvM3#/session/1731523466491001rgN5&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Meraki PCAP Analyser</title>
       <link>https://martynrees.github.io/post/pcap_analysis/</link>
