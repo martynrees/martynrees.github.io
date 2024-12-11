@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://martynrees.github.io/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/post/icap/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martynrees.github.io/post/</loc>
+    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://martynrees.github.io/tags/9800/</loc>
     <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/post/console-speed/</loc>
     <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
-    <loc>https://martynrees.github.io/</loc>
-    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
-  </url><url>
     <loc>https://martynrees.github.io/tags/cisco/</loc>
-    <lastmod>2023-10-10T12:21:35+10:30</lastmod>
-  </url><url>
-    <loc>https://martynrees.github.io/post/</loc>
     <lastmod>2023-10-10T12:21:35+10:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/tags/</loc>
@@ -102,7 +105,5 @@
     <lastmod>2019-07-22T12:04:17+09:30</lastmod>
   </url><url>
     <loc>https://martynrees.github.io/categories/</loc>
-  </url><url>
-    <loc>https://martynrees.github.io/post/icap/</loc>
   </url>
 </urlset>
