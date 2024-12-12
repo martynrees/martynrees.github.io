@@ -20,9 +20,9 @@
       <guid>https://martynrees.github.io/post/introducing_6e/</guid>
       <description>&lt;p&gt;Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?&lt;br /&gt;
 Both are based on the 802.11ax standard, so no difference there.&lt;br /&gt;
-What 6E does is introduces support for the 6Ghz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.&lt;br /&gt;
-Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.11 use, and like 2.4ghz and 5ghz, this is unlicenced spectrum*. Another thing to note, is that currently 6E is only approved for indoor use.&lt;br /&gt;
-Lets break down what 6E actually introduces:&lt;/p&gt;</description>
+What 6E does is introduce support for the 6GHz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.&lt;br /&gt;
+Like the 5GHz spectrum though, different countries have allowed different parts of the spectrum to be available for 802.11 use, and like 2.4GHz and 5GHz, this is unlicensed spectrum*. Another thing to note is that currently 6E is only approved for indoor use.&lt;br /&gt;
+Let&amp;rsquo;s break down what 6E actually introduces:&lt;/p&gt;</description>
     </item>
     <item>
       <title>802.11 Roaming</title>

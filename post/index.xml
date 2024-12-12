@@ -67,12 +67,12 @@ Again though, this is another instance where the smarts of the product can help 
       <link>https://martynrees.github.io/post/icap/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://martynrees.github.io/post/icap/</guid>
-      <description>&lt;p&gt;Packet captures have existed for a long time on the Meraki platform, and have saved me great amounts of travel time over the years. But now they have had a refresh and not just a GUI makeover (ok well it did get that as well.), but new features added too. Proactive PCAP and cloud storage are the main stars here.&lt;br /&gt;
-The old view served us well, and was clean, easy to use and just did its job.
+      <description>&lt;p&gt;Packet captures have existed for a long time on the Meraki platform and have saved me great amounts of travel time over the years. But now they have had a refresh and not just a GUI makeover (okay, well it did get that as well), but new features added too. Proactive PCAP and cloud storage are the main stars here.&lt;br /&gt;
+The old view served us well and was clean, easy to use, and just did its job.
 &lt;img alt=&#34;Old PCAP view&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/old_pcap.png&#34;&gt;
-Now called Intelligent Capture, it still does what the old feature did, but with a newer fresher look, and now includes cloud storage (so no more losing files) and the newest feature, Proactive PCAP&amp;rsquo;s that we will have a look at in the next post and create a bit of a series rather than one long post.
+Now called Intelligent Capture, it still does what the old feature did, but with a newer, fresher look, and now includes cloud storage (so no more losing files) and the newest feature, Proactive PCAPs, which we will have a look at in the next post and create a bit of a series rather than one long post.
 &lt;img alt=&#34;New PCAP view&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/new_pcap.png&#34;&gt;
-Nothing overly exciting in the Manual capture, but if we select to save to the cloud then it will be retained for 90 days before being deleted.&lt;/p&gt;</description>
+Nothing overly exciting in the Manual capture, but if we select to save to the cloud, then it will be retained for 90 days before being deleted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CWAP</title>
@@ -110,9 +110,9 @@ Turns out the reasoning for this is simple, it&amp;rsquo;s so that the AP can bo
       <guid>https://martynrees.github.io/post/introducing_6e/</guid>
       <description>&lt;p&gt;Because marketing people like to make things confusing, we have Wifi 6, and now Wifi 6E. So what is the difference?&lt;br /&gt;
 Both are based on the 802.11ax standard, so no difference there.&lt;br /&gt;
-What 6E does is introduces support for the 6Ghz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.&lt;br /&gt;
-Like the 5ghz specturm though, different countries have allowed different parts of the spectrum to be available for 802.11 use, and like 2.4ghz and 5ghz, this is unlicenced spectrum*. Another thing to note, is that currently 6E is only approved for indoor use.&lt;br /&gt;
-Lets break down what 6E actually introduces:&lt;/p&gt;</description>
+What 6E does is introduce support for the 6GHz frequency, which means more channels, less CCI, and the ability to deploy wider channel widths.&lt;br /&gt;
+Like the 5GHz spectrum though, different countries have allowed different parts of the spectrum to be available for 802.11 use, and like 2.4GHz and 5GHz, this is unlicensed spectrum*. Another thing to note is that currently 6E is only approved for indoor use.&lt;br /&gt;
+Let&amp;rsquo;s break down what 6E actually introduces:&lt;/p&gt;</description>
     </item>
     <item>
       <title>CWISA</title>
