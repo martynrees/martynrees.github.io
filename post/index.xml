@@ -97,11 +97,20 @@ I won&amp;rsquo;t go into what the CWAP exam is, as if you are here, then you pr
 What I will say is that the first place you should start on your journey is the &lt;a href=&#34;https://www.cwnp.com/certifications/cwap&#34;&gt;blueprint&lt;/a&gt;. Ignore the blueprint, and you probably won&amp;rsquo;t get far in passing.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Understanding Preferred Scan Channels (PSC)</title>
+      <link>https://martynrees.github.io/post/psc/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://martynrees.github.io/post/psc/</guid>
+      <description>&lt;p&gt;Navigating the 6GHz Spectrum: Understanding Preferred Scan Channels (PSC)&lt;/p&gt;
+&lt;p&gt;I feel like I&amp;rsquo;m late to the party with 6E, but in reality not having 6 Ghz approved for use in Australia for so long has just meant that there is more real world experience to learn from that others have already gone through when it comes to discovering 6E networks.&lt;/p&gt;
+&lt;p&gt;With the introduction of the 6GHz band, Wi-Fi technology continues to evolve, offering faster speeds and reduced congestion. However, discovering 6GHz networks requires a new approach, and that&amp;rsquo;s where Preferred Scan Channels (PSC) come into play. This is actually the only method by which Wi-Fi 6E client devices are allowed to send probe requests when searching for 6 Ghz networks.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>9800 WLC Cat9k AP Default Console Baud Rate</title>
       <link>https://martynrees.github.io/post/console-speed/</link>
       <pubDate>Tue, 10 Oct 2023 12:21:35 +1030</pubDate>
       <guid>https://martynrees.github.io/post/console-speed/</guid>
-      <description>&lt;p&gt;The current long term release of the IOS-XE 9800 WLC is feature packed, but tucked away in the &lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/wireless/controller/9800/17-12/release-notes/rn-17-12-9800.html#behavior-changes&#34;&gt;release notes&lt;/a&gt; is a one liner that is sure to catch people out in the near future(or me the other day): &lt;br /&gt;
+      <description>&lt;p&gt;The current long term 17.12 release of the IOS-XE 9800 WLC is feature packed, but tucked away in the &lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/wireless/controller/9800/17-12/release-notes/rn-17-12-9800.html#behavior-changes&#34;&gt;release notes&lt;/a&gt; is a one liner that is sure to catch people out in the near future(or me the other day): &lt;br /&gt;
 &lt;em&gt;&lt;strong&gt;From this release, the default console baud rate of the 802.11AX APs is changed from 9600 bps to 115200 bps.&lt;/strong&gt;&lt;/em&gt;
 &lt;img alt=&#34;115200&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/115200.png&#34;&gt;
 &lt;strong&gt;What does this mean?&lt;/strong&gt; &lt;br /&gt;
