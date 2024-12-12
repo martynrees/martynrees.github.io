@@ -75,6 +75,15 @@ Now called Intelligent Capture, it still does what the old feature did, but with
 Nothing overly exciting in the Manual capture, but if we select to save to the cloud, then it will be retained for 90 days before being deleted.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>9166 Dual 5Ghz</title>
+      <link>https://martynrees.github.io/post/9166_au/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://martynrees.github.io/post/9166_au/</guid>
+      <description>&lt;p&gt;A quick post today covering an issue that I&amp;rsquo;ve observed coming up a lot recently, which is catching engineers out, leading to deployment issues and poor user experience.&lt;/p&gt;
+&lt;p&gt;The 9166 AP behaves a bit differently from other models in that when it&amp;rsquo;s operating in a country where 6GHz has not yet been approved, obviously the 6GHz radio can&amp;rsquo;t be enabled, but it&amp;rsquo;s the behavior of the radio that catches people out.&lt;br /&gt;
+From the 9166 datasheet: Note: In countries where the use of the 6GHz band is not allowed or authorized or if there is no current software support, the 6GHz radio will be disabled and will switch to 5GHz and operate as a dual 5GHz access point. The 6GHz radio may be enabled with future software, once the product is certified to operate at 6GHz for that country.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CWAP</title>
       <link>https://martynrees.github.io/post/cwap/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
