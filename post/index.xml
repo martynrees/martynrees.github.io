@@ -9,7 +9,7 @@
       <url>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://martynrees.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.139.5</generator>
     <language>en</language>
     <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://martynrees.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -104,6 +104,17 @@ What I will say is that the first place you should start on your journey is the 
       <description>&lt;p&gt;Navigating the 6GHz Spectrum: Understanding Preferred Scan Channels (PSC)&lt;/p&gt;
 &lt;p&gt;I feel like I&amp;rsquo;m late to the party with 6E, but in reality, not having 6GHz approved for use in Australia for so long has just meant that there is more real-world experience to learn from that others have already gone through when it comes to discovering 6E networks.&lt;/p&gt;
 &lt;p&gt;With the introduction of the 6GHz band, Wi-Fi technology continues to evolve, offering faster speeds and reduced congestion. However, discovering 6GHz networks requires a new approach, and that&amp;rsquo;s where Preferred Scan Channels (PSC) come into play. This is actually the only method by which Wi-Fi 6E client devices are allowed to send probe requests when searching for 6GHz networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WPA3 Transition Mode</title>
+      <link>https://martynrees.github.io/post/wpa3_transition/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://martynrees.github.io/post/wpa3_transition/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had WPA3 SAE transition mode configured for home now for a while, and whilst I wouldn&amp;rsquo;t use it in an enterprise deployment (too many bad drivers out there) it works (most of the time) for home and I&amp;rsquo;m not as concerned about PMF benefits. I would like to move to WPA3 SAE solely, but unfortunatly there are still too many devices around the house that don&amp;rsquo;t support WPA3 and the overhead of running two SSID&amp;rsquo;s isn&amp;rsquo;t really worth it.
+My home production network is Meraki, with the lab being Catalyst, but today we&amp;rsquo;ll look at the Meraki deployment.
+Configuring the SSID for transition mode on the dashboard is straight forward. We select WPA3 Transition mode for the encryption type and make sure that 802.11w (PMF) is set to enabled. This means that clients that don&amp;rsquo;t support PMF and still only support WPA2 can still connect, but if the client supports PMF they can use it regardless of if they are connecting with WPA2 or WPA3.
+&lt;img alt=&#34;Transition&#34; loading=&#34;lazy&#34; src=&#34;https://martynrees.github.io/img/SAE_Transition.png&#34;&gt;
+Within a few seconds the config is pushed to the AP and it&amp;rsquo;s now running in transition mode for this particular SSID.&lt;/p&gt;</description>
     </item>
     <item>
       <title>9800 WLC Cat9k AP Default Console Baud Rate</title>
