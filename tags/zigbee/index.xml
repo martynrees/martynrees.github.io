@@ -18,7 +18,7 @@
       <link>https://martynrees.github.io/post/zigbee/</link>
       <pubDate>Mon, 11 Jul 2022 16:36:25 +1030</pubDate>
       <guid>https://martynrees.github.io/post/zigbee/</guid>
-      <description>&lt;p&gt;Having had Zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my CWISA certification.&lt;/p&gt;
+      <description>&lt;p&gt;Having had Zigbee in the home for a couple of years, and getting more and more devices spread across the home, I figured it was time to understand a little more about the protocol, and also work toward my &lt;a href=&#34;https://www.cwnp.com/certifications/cwisa/&#34;&gt;CWISA&lt;/a&gt; certification.&lt;/p&gt;
 &lt;p&gt;Zigbee is a wireless networking protocol that is primarily used for low-power, low-data rate applications in the Internet of Things (IoT). Zigbee falls under the IEEE 802.15.4 specification, which covers a suite of high-level communications protocols for creating personal area networks (PANs) via low-power digital radios.&lt;/p&gt;</description>
     </item>
   </channel>
